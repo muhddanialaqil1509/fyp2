@@ -17,6 +17,7 @@ def upload_file():
 
         st.write(f'## Please upload the 3 csv files mentioned as below.')
         st.write("Samples data can be found on : http://shorturl.at/tJ356")
+        st.write("P/S: In order to predict or re-predict, please click submit button again.")
 
         with st.form(key="form1"):
             path1 = st.file_uploader("UPLOAD ACTIVITY_MINUTE FILE", type={"csv"})
