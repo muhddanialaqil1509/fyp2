@@ -171,7 +171,7 @@ def upload_file():
 
 
                     # Plot the heart rate data
-                    chart4 = alt.Chart(merged_df, title="Heart Rate Over Time").mark_line().encode(
+                    chart4 = alt.Chart(merged_df, title="Heart Rate (BPM) Over Time").mark_line().encode(
                         x='datetime',
                         y='heartRate',
                         #color='Origin',
